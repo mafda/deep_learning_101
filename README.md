@@ -1,14 +1,35 @@
-# Deep learning 101
+# Deep Learning 101
 
-This project presents the basic notions that involve the concept of Deep Learning.
+This repository presents the **basic notions** that involve the concept of Deep Learning.
 
 ## Models
 
-* Linear Regression
-* Logistic Regression
-* Artificial Neural Networks
-* Deep Neural Networks
-* Convolutional Neural Networks
+Some of the models, such as:
+
+* [Linear Regression](https://github.com/mafda/deep_learning_101/blob/master/src/01-linear-regression.ipynb)
+* [Logistic Regression](https://github.com/mafda/deep_learning_101/blob/master/src/02-logistic-regression.ipynb)
+* [Artificial Neural Networks](https://github.com/mafda/deep_learning_101/blob/master/src/03-artificial-neural-networks.ipynb)
+* [Deep Neural Networks](https://github.com/mafda/deep_learning_101/blob/master/src/04-deep-neural-networks.ipynb)
+* [Convolutional Neural Networks](https://github.com/mafda/deep_learning_101/blob/master/src/05-convolutional-neural-networks.ipynb)
+
+## Presentation
+
+This work is composed by (Brazilian portuguese):
+
+* Introduction
+* Development Environment
+* Machine Learning
+* Deep Learning
+* Final Review
+
+## Instalation
+
+## References
+
+* [Deep Learning](http://www.deeplearningbook.org/)
+
+
+
 
 
 
