@@ -22,11 +22,12 @@ This work is composed by (Brazilian portuguese):
 * Deep Learning
 * Final Review
 
-## Instalation
+## Installation
 
 ## References
 
-* [Deep Learning](http://www.deeplearningbook.org/)
+* [Deep Learning](http://www.deeplearningbook.org/?target="_blank")
+
 
 
 
