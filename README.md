@@ -8,15 +8,15 @@ The models include a brief theoretical introduction and practical implementation
 
 ### Development Environment:
 
-* [Frameworks and Workflow](https://medium.com/@mafdarr/ml-dl-development-environment-part-1-5bb0b35750aa)
+* [ML & DL — Development environment (Part 1)](https://medium.com/@mafdarr/ml-dl-development-environment-part-1-5bb0b35750aa)
 
 ### Theoretical introduction:
 
-* [Linear Regression](https://medium.com/@mafdarr/ml-dl-linear-regression-part-2-14f114f2d62a)
-* [Logistic Regression](https://medium.com/@mafdarr/ml-dl-logistic-regression-part-3-fe6aca8f01b)
-* [Artificial Neural Networks](https://medium.com/@mafdarr/ml-dl-artificial-neural-networks-part-4-619350a93ef1)
-* [Deep Neural Networks](https://medium.com/@mafdarr/ml-dl-deep-artificial-neural-networks-part-5-568ad05be712)
-* [Convolutional Neural Networks](https://medium.com/@mafdarr/ml-dl-convolutional-neural-networks-part-6-97357db58165)
+* [ML & DL — Linear Regression (Part 2)](https://medium.com/@mafdarr/ml-dl-linear-regression-part-2-14f114f2d62a)
+* [ML & DL — Logistic Regression (Part 3)](https://medium.com/@mafdarr/ml-dl-logistic-regression-part-3-fe6aca8f01b)
+* [ML & DL — Artificial Neural Networks (Part 4)](https://medium.com/@mafdarr/ml-dl-artificial-neural-networks-part-4-619350a93ef1)
+* [ML & DL — Deep Neural Networks (Part 5)](https://medium.com/@mafdarr/ml-dl-deep-artificial-neural-networks-part-5-568ad05be712)
+* [ML & DL — Convolutional Neural Networks (Part 6)](https://medium.com/@mafdarr/ml-dl-convolutional-neural-networks-part-6-97357db58165)
 
 ### Practical implementations:
 
