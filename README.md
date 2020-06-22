@@ -2,6 +2,8 @@
 
 This repository presents the **basic notions** that involve the concept of Machine Learning and Deep Learning.
 
+Read more in this post [ML & DL — Machine Learning and Deep Learning 101](https://medium.com/@mafda_/ml-dl-machine-learning-and-deep-learning-101-2686d93d70d).
+
 ## Models
 
 The models include a brief theoretical introduction and practical implementations developed using Python and Keras/TensorFlow in Jupyter Notebooks.
@@ -35,7 +37,11 @@ The models include a brief theoretical introduction and practical implementation
 
 ## References
 
-* [Deep Learning Book](http://www.deeplearningbook.org/)
+* Complete Post Medium
+  * [ML & DL — Machine Learning and Deep Learning 101](https://medium.com/@mafda_/ml-dl-machine-learning-and-deep-learning-101-2686d93d70d)
+
+* Book
+  * [Deep Learning Book](http://www.deeplearningbook.org/)
 
 
 
