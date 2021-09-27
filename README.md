@@ -48,12 +48,9 @@ The models include a brief theoretical introduction and practical implementation
 * [Deep Neural Networks](https://github.com/mafda/deep_learning_101/blob/master/src/04-deep-neural-networks.ipynb)
 * [Convolutional Neural Networks](https://github.com/mafda/deep_learning_101/blob/master/src/05-convolutional-neural-networks.ipynb)
 
-
 ## [pt-BR] Presentation
 
 * [deep-learning-101.pdf](https://github.com/mafda/deep_learning_101/blob/master/pdf/deep-learning-101.pdf)
-
----
 
 ## References
 
@@ -63,9 +60,6 @@ The models include a brief theoretical introduction and practical implementation
 * Book
   * [Deep Learning Book](http://www.deeplearningbook.org/)
 
+---
 
-
-
-
-
-
+made with 💙 by [mafda](https://mafda.github.io/)
