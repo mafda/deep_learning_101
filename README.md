@@ -32,7 +32,7 @@ The models include a brief theoretical introduction and practical implementation
 
 * [ML & DL — Development environment (Part 1)](https://mafda.medium.com/ml-dl-development-environment-part-1-5bb0b35750aa)
 
-### Theoretical introduction:
+### Theoretical introduction (https://mafda.medium.com):
 
 * [ML & DL — Linear Regression (Part 2)](https://mafda.medium.com/ml-dl-linear-regression-part-2-14f114f2d62a)
 * [ML & DL — Logistic Regression (Part 3)](https://mafda.medium.com/ml-dl-logistic-regression-part-3-fe6aca8f01b)
@@ -40,7 +40,7 @@ The models include a brief theoretical introduction and practical implementation
 * [ML & DL — Deep Neural Networks (Part 5)](https://mafda.medium.com/ml-dl-deep-artificial-neural-networks-part-5-568ad05be712)
 * [ML & DL — Convolutional Neural Networks (Part 6)](https://mafda.medium.com/ml-dl-convolutional-neural-networks-part-6-97357db58165)
 
-### Practical implementations:
+### Practical implementations (Jupyter Notebooks):
 
 * [Linear Regression](https://github.com/mafda/deep_learning_101/blob/master/src/01-linear-regression.ipynb)
 * [Logistic Regression](https://github.com/mafda/deep_learning_101/blob/master/src/02-logistic-regression.ipynb)
