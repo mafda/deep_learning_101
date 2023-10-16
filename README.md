@@ -48,6 +48,15 @@ The models include a brief theoretical introduction and practical implementation
 * [Deep Neural Networks](https://github.com/mafda/deep_learning_101/blob/master/src/04-deep-neural-networks.ipynb)
 * [Convolutional Neural Networks](https://github.com/mafda/deep_learning_101/blob/master/src/05-convolutional-neural-networks.ipynb)
 
+### Results
+
+| Model | Architecture | Activation | Parameters| Accuracy |
+| ----: | ----: | ----: | ----: | ----: |
+| Log Reg | -- | -- | 7850 | 92.79% |
+| ANN | [32] | [sigmoid] | 25450| 96.27% |
+| DNN | [128, 64] | [relu, relu] | 25450 | 97.90% |
+| CNN | [32, 64, 128] | [relu, relu, relu] | 25450 | 98.84% |
+
 ## [pt-BR] Presentation
 
 * [deep-learning-101.pdf](https://github.com/mafda/deep_learning_101/blob/master/pdf/deep-learning-101.pdf)
