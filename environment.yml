@@ -1,7 +1,7 @@
 name : deep_learning_101
 channels:
   - conda-forge
-  - nodefault
+  - nodefaults
 dependencies:
   - graphviz=7.1.0
   - jupyter=1.0.0
