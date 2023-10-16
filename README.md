@@ -53,7 +53,7 @@ The models include a brief theoretical introduction and practical implementation
 | Model | Architecture | Activation | Parameters| Accuracy |
 | ----: | ----: | ----: | ----: | ----: |
 | Log Reg | -- | -- | 7850 | 0.9282 |
-| ANN | [32] | [sigmoid] | 25450| 96.27% |
+| ANN | [32] | [sigmoid] | 25450| 0.9636 |
 | DNN | [128, 64] | [relu, relu] | 25450 | 97.90% |
 | CNN | [32, 64, 128] | [relu, relu, relu] | 25450 | 98.84% |
 
