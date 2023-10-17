@@ -37,11 +37,25 @@ The development environment that will be used as one of the primary frameworks f
 Load data (training and testing set):
 
 ```python
+import tensorflow as tf
+
 X_train, y_train = tf.keras.datasets.mnist.load_data()
 X_test, y_test = tf.keras.datasets.mnist.load_data()
 ```
 
 #### 2. Define Model
+
+Two models: Sequential and Functional API.
+
+Sequential used to stack layers:
+* `model.add()` used to add the layers.
+* `input_shape =()` specify the input form.
+
+```python
+model = tf.keras.models.Sequential()
+model.add(layer1 …, input_shape=(nFeatures))
+model.add(layer2 … )
+```
 
 #### 3. Compile Model
 
