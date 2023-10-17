@@ -30,6 +30,26 @@ The models include a brief theoretical introduction and practical implementation
 
 ### Development Environment:
 
+The development environment that will be used as one of the primary frameworks for machine learning and deep learning, alongside Python programming, is the Jupyter Notebook environment.
+
+#### 1. Load Data
+
+Load data (training and testing set):
+
+```python
+X_train, y_train = tf.keras.datasets.mnist.load_data()
+X_test, y_test = tf.keras.datasets.mnist.load_data()
+```
+
+#### 2. Define Model
+
+#### 3. Compile Model
+
+#### 4. Fit Model
+
+#### 5. Evaluate Model
+
+
 * [ML & DL — Development environment (Part 1)](https://mafda.medium.com/ml-dl-development-environment-part-1-5bb0b35750aa)
 
 ### Theoretical introduction (https://mafda.medium.com):
