@@ -32,6 +32,8 @@ The models include a brief theoretical introduction and practical implementation
 
 The development environment that will be used as one of the primary frameworks for machine learning and deep learning, alongside Python programming, is the Jupyter Notebook environment.
 
+![keras flow](src/img/keras-flow.png)
+
 #### 1. Load Data
 
 Load data (training and testing set):
@@ -45,7 +47,7 @@ X_test, y_test = tf.keras.datasets.mnist.load_data()
 
 #### 2. Define Model
 
-Two models: Sequential and Functional API.
+Two models: [Sequential](https://keras.io/getting-started/sequential-model-guide/) and [Functional API](https://keras.io/getting-started/functional-api-guide/).
 
 Sequential used to stack layers:
 * `model.add()` used to add the layers.
@@ -59,12 +61,53 @@ model.add(layer2 … )
 
 #### 3. Compile Model
 
+Configure the learning process by specifying:
+
+* [`optimizer`](https://keras.io/optimizers) which determines how weights are updated,
+* [Cost function](https://keras.io/losses) or `loss` function,
+* [`metrics`](https://keras.io/metrics) to evaluate during training and testing.
+
+```python
+model.compile(optimizer='SGD', loss='mse', metrics=['accuracy'])
+```
+
 #### 4. Fit Model
+
+Start the training process.
+
+* `batch_size`: divide the data set into a number of batches.
+* `epochs`: number of times the data set is trained completely.
+
+```python
+model.fit(X_train, y_train, batch_size=500, epochs=1)
+```
 
 #### 5. Evaluate Model
 
+Evaluate the performance of the model.
+
+* `model.evaluate()` finds the specified loss and metrics, and it provides a **quantitative** measure of accuracy.
+* `model.predict()` finds the output for the provided test data and it is useful to check the outputs **qualitatively**.
+
+```python
+history = model.evaluate(X_test, y_test)
+y_pred = model.predict(X_test)
+```
 
 * [ML & DL — Development environment (Part 1)](https://mafda.medium.com/ml-dl-development-environment-part-1-5bb0b35750aa)
+
+### Accuracy results
+
+|  Model |  Architecture |         Activation | Parameters | Accuracy |
+| -----: | ------------: | -----------------: | ---------: | -------: |
+| LogReg |            -- |                 -- |       7850 |   0.9282 |
+|    ANN |          [32] |          [sigmoid] |      25450 |   0.9636 |
+|    DNN |     [128, 64] |       [relu, relu] |      25450 |   0.9801 |
+|    CNN | [32, 64, 128] | [relu, relu, relu] |      25450 |   0.9898 |
+
+### Target - Hypothesis - Cost
+
+![hypothesis cost](src/img/hypothesis_cost.png)
 
 ### Theoretical introduction (https://mafda.medium.com):
 
@@ -81,15 +124,7 @@ model.add(layer2 … )
 * [Artificial Neural Networks](https://github.com/mafda/deep_learning_101/blob/master/src/03-artificial-neural-networks.ipynb)
 * [Deep Neural Networks](https://github.com/mafda/deep_learning_101/blob/master/src/04-deep-neural-networks.ipynb)
 * [Convolutional Neural Networks](https://github.com/mafda/deep_learning_101/blob/master/src/05-convolutional-neural-networks.ipynb)
-
-### Results
-
-| Model | Architecture | Activation | Parameters| Accuracy |
-| ----: | ----: | ----: | ----: | ----: |
-| Log Reg | -- | -- | 7850 | 0.9282 |
-| ANN | [32] | [sigmoid] | 25450| 0.9636 |
-| DNN | [128, 64] | [relu, relu] | 25450 | 0.9801 |
-| CNN | [32, 64, 128] | [relu, relu, relu] | 25450 | 0.9898 |
+  
 
 ## [pt-BR] Presentation
 
