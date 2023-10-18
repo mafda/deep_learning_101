@@ -107,7 +107,14 @@ y_pred = model.predict(X_test)
 
 ### Target - Hypothesis - Cost
 
-![hypothesis cost](src/img/hypothesis_cost.png)
+|  Model |                  Target |                                      Hypothesis |               Cost |
+| -----: | ----------------------: | ----------------------------------------------: | -----------------: |
+| LinReg |              Continuous |                                  $\hat{y}=Wx+b$ |                MSE |
+| LogReg |             Categorical |                          $\hat{y}=\sigma(Wx+b)$ |      Cross-Entropy |
+|    ANN | Continuous, Categorical |                   $\hat{y}=f_{(2)}(f_{(1)}(x))$ | MSE, Cross-entropy |
+|    DNN | Continuous, Categorical |       $\hat{y}=f_{(n)}(...f_{(2)}(f_{(1)}(x)))$ | MSE, Cross-entropy |
+|    CNN | Continuous, Categorical | $\hat{y}=f_{(n)}(...f_{(2)(*)}(f_{(1)(*)}(x)))$ | MSE, Cross-entropy |
+
 
 ### Theoretical introduction (https://mafda.medium.com):
 
