@@ -1,8 +1,10 @@
 # Deep Learning 101
 
-This repository presents the **basic notions** that involve the concept of Machine Learning and Deep Learning.
+This repository presents the **basic notions** that involve the concept of
+Machine Learning and Deep Learning.
 
-Read more in this post [ML & DL — Machine Learning and Deep Learning 101](https://medium.com/@mafda_/ml-dl-machine-learning-and-deep-learning-101-2686d93d70d).
+Read more in this post [ML & DL — Machine Learning and Deep Learning
+101](https://medium.com/@mafda_/ml-dl-machine-learning-and-deep-learning-101-2686d93d70d).
 
 ## Configure environment
 
@@ -11,6 +13,9 @@ Read more in this post [ML & DL — Machine Learning and Deep Learning 101](http
 ```shell
 (base)$: conda env create -f environment.yml
 ```
+
+> Mac OS users could use the `environment_ios.yml` file for configuring the iOS
+> development environment.
 
 - Activate the environment
 
@@ -26,11 +31,15 @@ Read more in this post [ML & DL — Machine Learning and Deep Learning 101](http
 
 ## Models
 
-The models include a brief theoretical introduction and practical implementations developed using Python and Keras/TensorFlow in Jupyter Notebooks.
+The models include a brief theoretical introduction and practical
+implementations developed using Python and Keras/TensorFlow in Jupyter
+Notebooks.
 
 ### Development Environment:
 
-The development environment that will be used as one of the primary frameworks for machine learning and deep learning, alongside Python programming, is the Jupyter Notebook environment.
+The development environment that will be used as one of the primary frameworks
+for machine learning and deep learning, alongside Python programming, is the
+Jupyter Notebook environment.
 
 ![keras flow](src/img/keras-flow.png)
 
@@ -47,7 +56,9 @@ X_test, y_test = tf.keras.datasets.mnist.load_data()
 
 #### 2. Define Model
 
-Two models: [Sequential](https://keras.io/getting-started/sequential-model-guide/) and [Functional API](https://keras.io/getting-started/functional-api-guide/).
+Two models:
+[Sequential](https://keras.io/getting-started/sequential-model-guide/) and
+[Functional API](https://keras.io/getting-started/functional-api-guide/).
 
 Sequential used to stack layers:
 * `model.add()` used to add the layers.
@@ -63,7 +74,8 @@ model.add(layer2 … )
 
 Configure the learning process by specifying:
 
-* [`optimizer`](https://keras.io/optimizers) which determines how weights are updated,
+* [`optimizer`](https://keras.io/optimizers) which determines how weights are
+  updated,
 * [Cost function](https://keras.io/losses) or `loss` function,
 * [`metrics`](https://keras.io/metrics) to evaluate during training and testing.
 
@@ -86,8 +98,10 @@ model.fit(X_train, y_train, batch_size=500, epochs=1)
 
 Evaluate the performance of the model.
 
-* `model.evaluate()` finds the specified loss and metrics, and it provides a **quantitative** measure of accuracy.
-* `model.predict()` finds the output for the provided test data and it is useful to check the outputs **qualitatively**.
+* `model.evaluate()` finds the specified loss and metrics, and it provides a
+  **quantitative** measure of accuracy.
+* `model.predict()` finds the output for the provided test data and it is useful
+  to check the outputs **qualitatively**.
 
 ```python
 history = model.evaluate(X_test, y_test)
